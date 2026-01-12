@@ -37,6 +37,22 @@ This project simulates a real-world business environment where management needs 
 
 ---
 
+## 📁 Sample Dataset
+
+This project includes a fully fictional but realistic dataset stored in the `data/` folder:
+
+- `data/customers.csv`
+- `data/employees.csv`
+- `data/orders.csv`
+
+The dataset is designed to:
+- Span multiple years (2023–2024)
+- Include repeat customers and new customers
+- Support time-series analysis, ranking, and customer segmentation
+- Allow anyone to reproduce the analysis by loading the CSV files into MySQL using the schema in `schema/schema.sql`
+
+---
+
 ## 📊 Business Questions Answered
 
 ### Revenue Analysis
